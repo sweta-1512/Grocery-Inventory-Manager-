@@ -4,70 +4,70 @@ FreshMart Retail, a local grocery store chain, seeks to enhance its operational 
 This system will serve as a centralized platform to track grocery stock in real-time, monitor purchase and sales activities, and prevent both overstocking and shortages. By automating critical inventory functions and providing data-driven insights, the IMS will support better decision-making and elevate customer satisfaction.
 
 🔧 Key System Capabilities
-Real-Time Inventory Tracking
+1. Real-Time Inventory Tracking
 
-Monitor stock levels across products, categories, and stores
+. Monitor stock levels across products, categories, and stores
 
-Track item movement (purchases, sales, returns, transfers)
+. Track item movement (purchases, sales, returns, transfers)
 
-Manage expiration dates for perishable goods
+. Manage expiration dates for perishable goods
 
-Automated Purchase Order Management
+2. Automated Purchase Order Management
 
-Generate and manage supplier orders based on stock thresholds
+. Generate and manage supplier orders based on stock thresholds
 
-Track order status (pending, shipped, received, etc.)
+. Track order status (pending, shipped, received, etc.)
 
-Support for recurring and emergency orders
+. Support for recurring and emergency orders
 
-Sales Integration & Forecasting
+3. Sales Integration & Forecasting
 
-Sync with Point-of-Sale (POS) systems for live updates
+. Sync with Point-of-Sale (POS) systems for live updates
 
-Analyze historical sales trends to forecast future demand
+. Analyze historical sales trends to forecast future demand
 
-Identify fast-moving and slow-moving products
+. Identify fast-moving and slow-moving products
 
-Smart Alerts & Notifications
+4.Smart Alerts & Notifications
 
-Low stock, overstock, and out-of-stock alerts
+. Low stock, overstock, and out-of-stock alerts
 
-Expiry warnings for short-shelf-life items
+. Expiry warnings for short-shelf-life items
 
-Purchase follow-up reminders
+. Purchase follow-up reminders
 
-Comprehensive Reporting & Analytics
+5.Comprehensive Reporting & Analytics
 
-Real-time dashboards showing inventory health
+. Real-time dashboards showing inventory health
 
-Reports on turnover rates, shrinkage, and wastage
+. Reports on turnover rates, shrinkage, and wastage
 
-Seasonal trend analysis and performance benchmarking
+. Seasonal trend analysis and performance benchmarking
 
-Multi-Location Store Support
+6.Multi-Location Store Support
 
-Centralized control with store-specific inventory views
+. Centralized control with store-specific inventory views
 
-Facilitate inter-store stock transfers
+. Facilitate inter-store stock transfers
 
-Consolidated reporting for regional or chain-wide insights
+. Consolidated reporting for regional or chain-wide insights
 
 🧰 Recommended Technology Stack
-Frontend: React.js or Angular for responsive, user-friendly dashboards
+. Frontend: React.js or Angular for responsive, user-friendly dashboards
 
-Backend: Node.js, Django, or Laravel for robust server-side processing
+. Backend: Node.js, Django, or Laravel for robust server-side processing
 
-Database: PostgreSQL or MySQL for structured, scalable data storage
+. Database: PostgreSQL or MySQL for structured, scalable data storage
 
-Optional Tools: Mobile app support for on-the-go inventory audits, barcode scanning, supplier API integration
+. Optional Tools: Mobile app support for on-the-go inventory audits, barcode scanning, supplier API integration
 
 💡 Business Impact
-Reduced Operational Costs: By maintaining optimal inventory levels and minimizing overstocking
+. Reduced Operational Costs: By maintaining optimal inventory levels and minimizing overstocking
 
-Improved Product Availability: Ensuring shelves are consistently stocked with high-demand items
+. Improved Product Availability: Ensuring shelves are consistently stocked with high-demand items
 
-Lower Waste: By proactively managing expiry dates and reducing spoilage
+. Lower Waste: By proactively managing expiry dates and reducing spoilage
 
-Enhanced Supplier Management: With accurate purchasing data and inventory forecasts
+. Enhanced Supplier Management: With accurate purchasing data and inventory forecasts
 
-Informed Decision-Making: Through access to detailed inventory analytics and trends
+. Informed Decision-Making: Through access to detailed inventory analytics and trends
