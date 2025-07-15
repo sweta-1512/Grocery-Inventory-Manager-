@@ -1,85 +1,73 @@
-📦 FreshMart Retail – Inventory Management System (IMS)
-FreshMart Retail, a local grocery store chain, aims to enhance operational efficiency and customer satisfaction through a modern, centralized Inventory Management System.
-This system streamlines inventory control across multiple store locations, ensuring optimal stock levels, minimal waste, and real-time supply chain visibility.
 
-🚀 Project Overview
-The IMS is designed to automate critical inventory functions, reduce manual workload, and deliver data-driven insights for smarter decision-making.
+<h1 align="center">🛒 FreshMart Inventory Management System</h1>
 
-With live tracking and predictive analytics, FreshMart Retail can respond swiftly to changing demand, avoid stockouts, and improve product availability on shelves.
+<p align="center">
+  <b>A simple yet powerful desktop inventory manager built with Python, Tkinter, and JSON storage.</b><br>
+  <i>Helps small grocery stores like FreshMart easily track, update, and manage stock levels.</i>
+</p>
 
-🔧 Key Features
-📊 Real-Time Inventory Tracking
-. Monitor stock levels by product, category, and store
+<hr>
 
-. Track all item movements: purchases, sales, returns, and transfers
+📦 Overview
+<br>
+FreshMart Inventory Management System is a lightweight desktop application designed to manage stock items in small retail or grocery shops.
+<br><br>
+✅ Features include
+- Add new inventory items with expiry date.<br>
+- View all items in a user-friendly table.<br>
+- Update stock quantity easily.<br>
+- Delete outdated or unwanted items.<br>
+- Alerts for low stock items (quantity below 10).<br>
 
-. Manage expiry dates for perishable items
+<hr>
 
-🛒 Automated Purchase Order Management
-. Auto-generate supplier orders based on stock thresholds
+🚀 How to Run
 
-. Track order status: pending, shipped, received, etc.
+<ol>
+  <li>Make sure you have <code>Python 3</code> installed on your system.</li>
+  <li>Install required libraries:
+    <pre>pip install tkcalendar</pre>
+  </li>
+  <li>Clone this repository or download the code files.</li>
+  <li>Run the script:
+    <pre>python inventory_app.py</pre>
+  </li>
+</ol>
 
-. Support recurring orders and emergency restocking
+✨ That's it! The application window should now appear.
 
-📈 Sales Integration & Forecasting
-. Seamless sync with POS systems for live updates
+<hr>
 
-. Analyze sales history to forecast demand
+🛠️ Key Components & How It Works
 
-. Identify fast-moving and slow-moving items
+<ul>
+  <li><b>GUI:</b> Built with <code>Tkinter</code> and <code>ttk</code> widgets for modern look.</li>
+  <li><b>Data Storage:</b> Uses a local JSON file (<code>inventory.json</code>) to store inventory data persistently.</li>
+  <li><b>Date Picker:</b> Integrates <code>tkcalendar.DateEntry</code> for selecting expiry dates easily.</li>
+  <li><b>Low Stock Alerts:</b> Automatically notifies user about items running low on stock when the app starts.</li>
+</ul>
 
-🔔 Smart Alerts & Notifications
-. Low stock, overstock, and out-of-stock alerts
+<hr>
 
-. Expiry warnings for items nearing shelf life
+🧩 File Structure
+<br>
+inventory_app.py     # Main Python script containing the entire application
+<br>
+inventory.json       # JSON file to store inventory data (created after first run)
+<br>
+README.md            # Project documentation (this file)
 
-. Purchase order follow-up reminders
+<hr>
+✏️ How to Contribute
+If you'd like to improve this project or add new features:
 
-📉 Comprehensive Reporting & Analytics
-. Real-time dashboards for overall inventory health
+Fork the repository.
 
-. Reports on turnover rates, shrinkage, wastage
+Make your changes.
 
-. Seasonal trend analysis and performance benchmarking
+Submit a pull request!
 
-🏪 Multi-Location Store Support
-. Centralized control panel with store-specific inventory views
-
-. Enable easy inter-store stock transfers
-
-. Consolidated reporting across regions or the entire chain
-
-🧰 Recommended Tech Stack
-. Frontend: React.js or Angular – for intuitive, responsive dashboards
-
-. Backend: Node.js, Django, or Laravel – for scalable server-side logic
-
-. Database: PostgreSQL or MySQL – reliable, structured data storage
-
-. Optional Add-ons:
-
-* Mobile app for on-the-go audits
-
-* Barcode scanning
-
-* Supplier API integration
-
-💡 Business Impact
-✅ Reduced Operational Costs
-Maintain balanced stock levels and avoid overstocking.
-
-✅ Improved Product Availability
-Keep high-demand items consistently on shelves.
-
-✅ Lower Waste & Spoilage
-Proactive expiry date tracking to minimize waste.
-
-✅ Better Supplier Management
-Accurate purchasing forecasts for stronger supplier relationships.
-
-✅ Smarter Decisions
-Real-time analytics and trends to guide business strategy.
-
-✨ Why IMS for FreshMart Retail?
-By combining automation, real-time insights, and user-friendly tools, this Inventory Management System empowers FreshMart Retail to operate more efficiently, serve customers better, and stay competitive in today’s fast-paced retail landscape.
+<hr>
+🧡 Author
+Developed by Sweta Kumari
+If you find this helpful, leave a ⭐ or share it with others!
